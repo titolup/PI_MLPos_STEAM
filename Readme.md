@@ -78,7 +78,7 @@ Para el desarrollo de la API, se seleccionó el framework FastAPI, implementando
 
 Es importante destacar que la función "recomendacion_juego" se añadió a la API, sin embargo, solo "recomendacion_juego" en el notebook de modelado es la correcta, ya que la implementación en Render no fue posible debido a restricciones de capacidad de almacenamiento. Por lo tanto, para utilizar esta función, se debe ejecutar la API localmente.
 
-Modelado (Desarrollo del Modelo de Aprendizaje Automático)
+## *Modelado (Desarrollo del Modelo de Aprendizaje Automático)*
 
 En esta fase del proyecto, se utilizan los conjuntos de datos obtenidos durante la etapa de Feature Engineering, especialmente el dataset "steam_games", que contiene información crucial como los géneros de videojuegos, los títulos y las identificaciones correspondientes.
 
