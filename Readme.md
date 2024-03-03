@@ -1,5 +1,8 @@
-# *Proyecto Individual 1 - Machine Learning MLOps*
+![6CF774EC-A503-4B93-BF63-47A9CE38A14A](https://github.com/titolup/PI_MLPos_STEAM/assets/113148754/2a94ce95-c3d4-48df-9d24-d89ed57c3730)
 
+
+
+# *Proyecto Individual 1 - Machine Learning MLOps*
 El propósito fundamental de este proyecto es simular el rol de un MLOps Engineer, que amalgama las competencias de un Data Engineer y un Data Scientist, dentro del contexto dinámico de la plataforma de juegos Steam. El desafío empresarial que se plantea es la creación de un Producto Mínimo Viable (MVP) que integre una API desplegada conjuntamente con un modelo de Machine Learning. Este modelo debe ser capaz de efectuar un análisis de sentimientos basado en los comentarios de los usuarios, al tiempo que provee un sistema de recomendación de videojuegos personalizado para la plataforma.
 
 ### *El proyecto se fundamenta en el análisis de tres archivos en formato JSON GZIP:*
