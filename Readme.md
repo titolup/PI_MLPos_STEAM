@@ -114,13 +114,12 @@ El código para generar la API se encuentra en el archivo Main. Para ejecutar la
 ¡Con estos pasos podrás ejecutar y probar la API localmente en tu máquina!
 
 
-## *Despliegue de la API en Render*
+## _Despliegue de la API en Render_
 
 Para el despliegue de la API, se optó por la plataforma Render, una solución en la nube unificada que permite crear y ejecutar aplicaciones y sitios web de manera eficiente. Render ofrece la ventaja de desplegar automáticamente las aplicaciones directamente desde GitHub.
 
 El proceso comenzó con la creación de un nuevo servicio en Render, el cual se conectó a este repositorio. Como resultado, la API ahora está completamente operativa y accesible a través del siguiente enlace: [URL del servicio Render](https://api-p1-70mr.onrender.com/docs#).
 
-![C:\Users\Toranzos\Pictures\Screenshots\Captura de pantalla (62).png]
 
 
 ## *Video*
