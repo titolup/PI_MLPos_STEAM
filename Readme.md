@@ -2,7 +2,7 @@
 
 El propósito fundamental de este proyecto es simular el rol de un MLOps Engineer, que amalgama las competencias de un Data Engineer y un Data Scientist, dentro del contexto dinámico de la plataforma de juegos Steam. El desafío empresarial que se plantea es la creación de un Producto Mínimo Viable (MVP) que integre una API desplegada conjuntamente con un modelo de Machine Learning. Este modelo debe ser capaz de efectuar un análisis de sentimientos basado en los comentarios de los usuarios, al tiempo que provee un sistema de recomendación de videojuegos personalizado para la plataforma.
 
-###*El proyecto se fundamenta en el análisis de tres archivos en formato JSON GZIP:*
+### *El proyecto se fundamenta en el análisis de tres archivos en formato JSON GZIP:*
 
 'output_steam_games.json´': Este archivo contiene un dataframe que detalla información crucial sobre los juegos, incluyendo el nombre del juego, el editor, el desarrollador, los precios y etiquetas asociadas.
 
@@ -19,7 +19,7 @@ Puedes encontrar los detalles de los conjuntos de datos en los siguientes enlace
 
 
 
-###*Tareas Realizadas:*
+## *Tareas Realizadas:*
 
 **ETL (Extracción, Transformación y Carga):**
 Durante esta etapa crítica del proyecto, se ejecutaron tres Notebooks fundamentales: ETL_steam, ETL_reviews y ETL_items. El propósito principal fue extraer datos de los dataframes iniciales para adquirir familiaridad con ellos y, seguidamente, iniciar la crucial fase de limpieza de datos. Este proceso implicó la eliminación de cualquier elemento que pudiera obstruir la comprensión y la interpretación precisa del archivo, garantizando así la efectividad en el logro de los objetivos del proyecto. Una vez completada la limpieza, se procedió a generar los datasets necesarios para la fase subsiguiente, comprimiéndolos en formato Parquet para una gestión y almacenamiento optimizados.
@@ -30,7 +30,7 @@ En esta etapa, se llevó a cabo un análisis de sentimientos utilizando la bibli
 Además de la implementación de esta metodología, se prepararon en esta fase los conjuntos de datos necesarios para el tratamiento de cada función específica. Esto permitió optimizar y mejorar los tiempos de ejecución del servicio en la nube, facilitando así el despliegue de la API y la resolución eficiente de consultas.
 
 
-###*Funciones Endpoint:*
+## *Funciones Endpoint:*
 
 En esta etapa del proyecto, se seleccionaron cuidadosamente los conjuntos de datos necesarios para abordar cada función específica. Este enfoque se llevó a cabo con el objetivo de optimizar significativamente el rendimiento y mejorar los tiempos de procesamiento asociados a cada tarea.
 
@@ -50,7 +50,7 @@ Para obtener detalles específicos sobre la implementación de cada función, se
 
 
 
-###*Análisis Exploratorio de los Datos*
+## *Análisis Exploratorio de los Datos*
 
 Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los tres conjuntos de datos después de completar el proceso de ETL. El objetivo principal fue obtener una visualización detallada de cada variable, tanto categórica como numérica. Esto permitió identificar con precisión las variables críticas necesarias para el modelo de recomendación, que representa el objetivo final del proceso de aprendizaje automático (Machine Learning).
 
@@ -58,7 +58,7 @@ Puedes encontrar el análisis exploratorio completo en el siguiente notebook: [e
 
 
 
-###*Desarrollo de la API*
+## *Desarrollo de la API*
 
 Para el desarrollo de la API, se seleccionó el framework FastAPI, implementando las siguientes funciones:
 
@@ -87,12 +87,12 @@ Una función destacada en esta etapa es "recomendacion_juego", la cual toma como
 El desarrollo de las funciones de consulta generales y el código para el modelo de recomendación se encuentran detallados en el Notebook de Modelado. Puedes acceder al notebook a través del siguiente enlace: [enlace al notebook de modelado](enlace).
 
 
-###*FastAPI*
+## *FastAPI*
 
 El código para generar la API se encuentra en el archivo Main. Para ejecutar la API desde localhost, sigue estos pasos:
 
 
-1. Clona el proyecto utilizando el comando: `git clone [URL del repositorio]`.
+1. Clona el proyecto utilizando el comando: `git clone https://github.com/titolup/PI_MLPos_STEAM.
 
 2. Prepara el entorno de trabajo en Visual Studio Code:
 
@@ -111,21 +111,21 @@ El código para generar la API se encuentra en el archivo Main. Para ejecutar la
 ¡Con estos pasos podrás ejecutar y probar la API localmente en tu máquina!
 
 
-###Despliegue de la API en
+## *Despliegue de la API en Render*
 
 Para el despliegue de la API, se optó por la plataforma Render, una solución en la nube unificada que permite crear y ejecutar aplicaciones y sitios web de manera eficiente. Render ofrece la ventaja de desplegar automáticamente las aplicaciones directamente desde GitHub.
 
 El proceso comenzó con la creación de un nuevo servicio en Render, el cual se conectó a este repositorio. Como resultado, la API ahora está completamente operativa y accesible a través del siguiente enlace: [URL del servicio Render](enlace).
 
 
-###*Video*
+## *Video*
 
 Para obtener una explicación y demostración del funcionamiento de la API, puedes acceder al siguiente enlace de video:
 
 [Enlace al video de explicación y demostración de la API](enlace_al_video)
 
 
-##*Conclusiones:*
+## *Conclusiones:*
 
 Este proyecto representa una valiosa aplicación de los conocimientos adquiridos durante el programa de Data Science en HENRY. Ha abordado con éxito tareas típicas tanto de un Data Engineer como de un Data Scientist. Logramos cumplir con el objetivo de desarrollar un Producto Mínimo Viable (MPV), consistente en la creación de una API y su posterior despliegue en un servicio web.
 
