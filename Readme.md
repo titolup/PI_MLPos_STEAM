@@ -120,7 +120,7 @@ Para el despliegue de la API, se optó por la plataforma Render, una solución e
 
 El proceso comenzó con la creación de un nuevo servicio en Render, el cual se conectó a este repositorio. Como resultado, la API ahora está completamente operativa y accesible a través del siguiente enlace: [URL del servicio Render](https://api-p1-70mr.onrender.com/docs#).
 
-![C:\Users\Toranzos\Pictures\Screenshots\Captura de pantalla (62).png](https://github.com/titolup/PI_MLPos_STEAM/assets/113148754/2a94ce95-c3d4-48df-9d24-d89ed57c3730)
+![C:\Users\Toranzos\Pictures\Screenshots\Captura de pantalla (62).png]
 
 
 ## *Video*
