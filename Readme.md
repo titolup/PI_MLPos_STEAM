@@ -2,7 +2,7 @@
 
 
 
-# *Proyecto Individual 1 - Machine Learning MLOps*
+# * Machine Learning MLOps Video Juegos STEAM*
 El propósito fundamental de este proyecto es desarrollar un Producto Mínimo Viable (MVP) que incluya una API y un modelo de Machine Learning diseñado para realizar análisis de sentimientos en los comentarios de los usuarios. Este modelo fue creado con el propósito de ofrecer un sistema de recomendación de videojuegos personalizado en la popular plataforma Steam.
 
 ## *Explorando el análisis de tres archivos en formato JSON GZIP:*
@@ -87,6 +87,8 @@ Para obtener una explicación y demostración del funcionamiento de la API, pued
 [Enlace al video de explicación y demostración de la API](enlace_al_video)
 
 
+# **Autor:**
+Este proyecto fue realizado por [](https://github.com/titolup)
 
 
 
