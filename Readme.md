@@ -2,7 +2,7 @@
 
 
 
-# **Machine Learning MLOps Video Juegos STEAM**
+# **Machine Learning MLOps Videojuegos STEAM**
 El propósito fundamental de este proyecto es desarrollar un Producto Mínimo Viable (MVP) que incluya una API y un modelo de Machine Learning diseñado para realizar análisis de sentimientos en los comentarios de los usuarios. Este modelo fue creado con el propósito de ofrecer un sistema de recomendación de videojuegos personalizado en la popular plataforma Steam.
 
 ## *Explorando el análisis de tres archivos en formato JSON GZIP:*
@@ -69,7 +69,7 @@ Una función destacada en esta etapa es "recomendacion_juego", la cual toma como
 
 En esta etapa del proyecto, se llevó a cabo el desarrollo de los endpoints requeridos mediante [Funciones](https://github.com/titolup/PI_MLPos_STEAM/blob/main/5_Funciones.ipynb), implementadas dentro del archivo Funciones.ipynb. Después de instalar FastAPI y uvicorn, se configuró un archivo [main.py](https://github.com/titolup/PI_MLPos_STEAM/blob/main/main.py) con la estructura necesaria para poner en funcionamiento los endpoints.
 
-Estas funciones se alimentan con datos provenientes de los archivos PARQUET generados en ETL y luego tratados en el archivo [Tablas_Union_Finciones](https://github.com/titolup/PI_MLPos_STEAM/blob/main/main.py) para poder optimizar el almacenamiento para poder posteriormente realizar el deploy en Render.
+Estas funciones se alimentan con datos provenientes de los archivos PARQUET generados en ETL y luego tratados en el archivo [Tablas_Union_Funciones](https://github.com/titolup/PI_MLPos_STEAM/blob/main/main.py) para poder optimizar el almacenamiento para poder posteriormente realizar el deploy en Render.
 
 Todo el proceso de desarrollo se realizó localmente en Visual Studio Code, haciendo uso de herramientas como Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta combinación de tecnologías permitió dar vida a los endpoints de la API, proporcionando un acceso exitoso a las funcionalidades desarrolladas en el proyecto.
 
