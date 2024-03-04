@@ -47,17 +47,12 @@ Las funciones creadas incluyen:
 
 - **best_developer_year(año: int)**: Proporciona el top 3 de desarrolladores con los juegos más recomendados por los usuarios para el año indicado.
 
-Para obtener detalles específicos sobre la implementación de cada función, se puede consultar el [Notebook correspondiente a las funciones](enlace_del_notebook).
-
-
-
 
 
 ## *Análisis Exploratorio de los Datos:*
 
 Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los tres conjuntos de datos después de completar el proceso de ETL. El objetivo principal fue obtener una visualización detallada de cada variable, tanto categórica como numérica. Esto permitió identificar con precisión las variables críticas necesarias para el modelo de recomendación, que representa el objetivo final del proceso de aprendizaje automático (Machine Learning).
 
-Puedes encontrar el análisis exploratorio completo en el siguiente notebook: [enlace al notebook de análisis exploratorio](enlace).
 
 
 
@@ -86,9 +81,6 @@ Es importante destacar que la función "recomendacion_juego" se añadió a la AP
 En esta fase del proyecto, se utilizan los conjuntos de datos obtenidos durante la etapa de Feature Engineering, especialmente el dataset "steam_games", que contiene información crucial como los géneros de videojuegos, los títulos y las identificaciones correspondientes.
 
 Una función destacada en esta etapa es "recomendacion_juego", la cual toma como parámetro el "id" de un título de juego y devuelve una lista con 5 juegos recomendados similares. Esto se logra mediante una comparación item-item, basada en la similitud de géneros entre los juegos.
-
-El desarrollo de las funciones de consulta generales y el código para el modelo de recomendación se encuentran detallados en el Notebook de Modelado. Puedes acceder al notebook a través del siguiente enlace: []().
-
 
 ## *FastAPI:*
 
