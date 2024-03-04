@@ -73,6 +73,8 @@ Todo el proceso de desarrollo se realizó localmente en Visual Studio Code, haci
 
 
 
+
+
 ## **Despliegue de la API en Render:**
 
 Para el despliegue de la API, se optó por la plataforma Render, una solución en la nube unificada que permite crear y ejecutar aplicaciones y sitios web de manera eficiente. Render ofrece la ventaja de desplegar automáticamente las aplicaciones directamente desde GitHub.
@@ -88,7 +90,7 @@ Para obtener una explicación y demostración del funcionamiento de la API, pued
 
 
 # **Autor:**
-[Este proyecto fue realizado por](https://github.com/titolup)
+Este proyecto fue realizado por[NATALIA PAEZ MARIN](https://github.com/titolup)
 
 
 
