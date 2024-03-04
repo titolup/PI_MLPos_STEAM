@@ -88,7 +88,7 @@ Para obtener una explicación y demostración del funcionamiento de la API, pued
 
 
 # **Autor:**
-Este proyecto fue realizado por [](https://github.com/titolup)
+[Este proyecto fue realizado por](https://github.com/titolup)
 
 
 
