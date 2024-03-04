@@ -16,9 +16,9 @@ El propósito fundamental de este proyecto es simular el rol de un MLOps Enginee
 Estos archivos, comprimidos en formato JSON GZIP, ofrecen un amplio conjunto de datos para realizar un análisis exhaustivo sobre la experiencia de los usuarios con los juegos.
 
 Puedes encontrar los detalles de los conjuntos de datos en los siguientes enlaces:
-- [output_steam_games.json](enlace)
-- [australian_users_items.json](enlace)
-- [australian_users_reviews.json](enlace)
+- [Dataset_steam_games.json](enlace)
+- [Datasets_users_items.json](enlace)
+- [Datasets_users_reviews.json](enlace)
 
 
 
