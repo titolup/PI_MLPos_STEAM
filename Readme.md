@@ -5,7 +5,7 @@
 # *Proyecto Individual 1 - Machine Learning MLOps*
 El propósito fundamental de este proyecto es simular el rol de un MLOps Engineer, que amalgama las competencias de un Data Engineer y un Data Scientist, dentro del contexto dinámico de la plataforma de juegos Steam. El desafío empresarial que se plantea es la creación de un Producto Mínimo Viable (MVP) que integre una API desplegada conjuntamente con un modelo de Machine Learning. Este modelo debe ser capaz de efectuar un análisis de sentimientos basado en los comentarios de los usuarios, al tiempo que provee un sistema de recomendación de videojuegos personalizado para la plataforma.
 
-## *El proyecto se fundamenta en el análisis de tres archivos en formato JSON GZIP:*
+## *Explorando el análisis de tres archivos en formato JSON GZIP:*
 
 '**output_steam_games.json**´: Este archivo contiene un dataframe que detalla información crucial sobre los juegos, incluyendo el nombre del juego, el editor, el desarrollador, los precios y etiquetas asociadas.
 
@@ -22,7 +22,7 @@ Puedes encontrar los detalles de los conjuntos de datos en los siguientes enlace
 
 
 
-## **Tareas Realizadas:**
+## **Actividades Desarrolladas:**
 
 **ETL (Extracción, Transformación y Carga):**
 Durante esta etapa crítica del proyecto, se ejecutaron tres Notebooks fundamentales: ETL_steam, ETL_reviews y ETL_items. El propósito principal fue extraer datos de los dataframes iniciales para adquirir familiaridad con ellos y, seguidamente, iniciar la crucial fase de limpieza de datos. Este proceso implicó la eliminación de cualquier elemento que pudiera obstruir la comprensión y la interpretación precisa del archivo, garantizando así la efectividad en el logro de los objetivos del proyecto. Una vez completada la limpieza, se procedió a generar los datasets necesarios para la fase subsiguiente, comprimiéndolos en formato Parquet para una gestión y almacenamiento optimizados.
@@ -50,30 +50,11 @@ Las funciones creadas incluyen:
 - **developer_reviews_analysis(desarrolldora:str)**: Devuelve un diccionario con el nombre del desarrollador y cantidad de registros con reseñas de usuarios categorizadas con un analisis de sentimiento como positivo o negativo.
 
 
-## **Análisis Exploratorio de los Datos:**
+## **Exploracion y Análisis de Datos:**
 
 Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los tres conjuntos de datos después de completar el proceso de ETL. El objetivo principal fue obtener una visualización detallada de cada variable, tanto categórica como numérica. Esto permitió identificar con precisión las variables críticas necesarias para el modelo de recomendación, que representa el objetivo final del proceso de aprendizaje automático (Machine Learning).
 
 
-
-
-## **Desarrollo de la API:**
-
-Para el desarrollo de la API, se seleccionó el framework FastAPI, implementando las siguientes funciones:
-
-1. `developer`: Esta función recibe como entrada 'desarrollador' devuelve cantidad de items y porcentaje de contenido free por año según empresa desarrolladora.
-
-2. `userdata`: Esta función tiene por parámentro 'user_id' y devuelve la cantidad de dinero gastado por el usuario, el porcentaje de recomendaciones que realizó sobre la cantidad de reviews que se analizan y la cantidad de items que consume el mismo.
-
-3. `userforgenre`: Se proporciona el género de un videojuego como parámetro y devuelve el usuario que acumula más horas jugadas para el genero dado y una lista de acumulacion de horas jugadas por año de lanzamiento.
-
-4. `best_developer_year`: Esta función recibe como parametro el año y devuelve el top 3 de desarrolladores con más juegos recomendados por usuarios para el año dado.
-
-5. `developer_reviews_analysis`: Esta funcion recibe como entrada el nombre de la empresa desarrolladora y devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un analisis de sentimiento como valor positivo o negativo.
-
-6. `recomendacion_juego`: Se ingresa el nombre de un juego (id) y se obtiene una lista con 5 juegos recomendados similares al ingresado.
-
-Es importante destacar que la función "recomendacion_juego" se añadió a la API, sin embargo, solo "recomendacion_juego" en el notebook de modelado es la correcta, ya que la implementación en Render no fue posible debido a restricciones de capacidad de almacenamiento. Por lo tanto, para utilizar esta función, se debe ejecutar la API localmente.
 
 ## **Modelado (Desarrollo del Modelo de Aprendizaje Automático):**
 
@@ -81,28 +62,15 @@ En esta fase del proyecto, se utilizan los conjuntos de datos obtenidos durante 
 
 Una función destacada en esta etapa es "recomendacion_juego", la cual toma como parámetro el "id" de un título de juego y devuelve una lista con 5 juegos recomendados similares. Esto se logra mediante una comparación item-item, basada en la similitud de géneros entre los juegos.
 
-## **FastAPI:**
 
-El código para generar la API se encuentra en el archivo Main. Para ejecutar la API desde localhost, sigue estos pasos:
+## **Desarrollo de Funciones API:**
 
+En esta etapa del proyecto, se llevó a cabo el desarrollo de los endpoints requeridos mediante funciones en Python, implementadas dentro del archivo Funciones.ipynb. Después de instalar FastAPI y uvicorn, se configuró un archivo main.py con la estructura necesaria para poner en funcionamiento los endpoints.
 
-1. Clona el proyecto utilizando el comando: `git clone https://github.com/titolup/PI_MLPos_STEAM.
+Estas funciones se alimentan con datos provenientes del archivo PARQUET generado durante el análisis exploratorio de datos  realizado anteriormente.
 
-2. Prepara el entorno de trabajo en Visual Studio Code:
+Todo el proceso de desarrollo se realizó localmente en Visual Studio Code, haciendo uso de herramientas como Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta combinación de tecnologías permitió dar vida a los endpoints de la API, proporcionando un acceso exitoso a las funcionalidades desarrolladas en el proyecto
 
-    - Crea un entorno virtual con el comando: `python -m venv env`.
-    - Activa el entorno virtual con: `env\Scripts\activate`.
-    - Instala las dependencias ejecutando: `pip install -r requirements.txt`.
-
-3. Ejecuta el archivo `main.py` desde la consola activando `uvicorn`. Utiliza el siguiente comando: `uvicorn main:app --reload`.
-
-4. Haz clic en la dirección que aparece en la consola (http://XXX.X.X.X:XXXX) o cópiala en tu navegador.
-
-5. Una vez en el navegador, agrega "/docs" al final de la URL para acceder a ReDoc.
-
-6. Dentro de cada función, haz clic en "Try it out", luego introduce los datos necesarios o utiliza los ejemplos por defecto. Finalmente, haz clic en "Execute" para ver la respuesta.
-
-¡Con estos pasos podrás ejecutar y probar la API localmente en tu máquina!
 
 
 ## **Despliegue de la API en Render:**
