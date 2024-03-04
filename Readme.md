@@ -120,7 +120,7 @@ Para el despliegue de la API, se optó por la plataforma Render, una solución e
 
 El proceso comenzó con la creación de un nuevo servicio en Render, el cual se conectó a este repositorio. Como resultado, la API ahora está completamente operativa y accesible a través del siguiente enlace: [URL del servicio Render](https://api-p1-70mr.onrender.com/docs#).
 
-![https://www.canva.com/design/DAF-fxkgCSM/ZLf_2GWKI2ck_W1VnuoGrg/view?utm_content=DAF-fxkgCSM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview]
+![C:\Users\Toranzos\Downloads\Estudio de Fotografía Portada de Facebook (1).png]
 
 
 
