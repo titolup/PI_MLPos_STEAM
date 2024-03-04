@@ -91,8 +91,8 @@ Para obtener una explicación y demostración del funcionamiento de la API, pued
 [Enlace al video de explicación y demostración de la API](enlace_al_video)
 
 
-# **Autor:**
-Este proyecto fue realizado por : [**Natalia Paez Marin**](https://github.com/titolup)
+## **Autor:**
+Este proyecto fue realizado por : [**Natalia Paez Marin**](https://github.com/titolup) como proyecto individual para el bootcamp de Data Science de Henry.
 
 
 
