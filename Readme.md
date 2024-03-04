@@ -17,7 +17,7 @@ Estos archivos, comprimidos en formato JSON GZIP, ofrecen un amplio conjunto de 
 
 Puedes encontrar los detalles de los conjuntos de datos en el siguente enlace:
 
-- [Dataset](https://github.com/titolup/PI_MLPos_STEAM/blob/main/0-%20Datasets)
+- [Datasets](https://github.com/titolup/PI_MLPos_STEAM/blob/main/0-%20Datasets)
 
   
    
