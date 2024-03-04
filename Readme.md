@@ -15,10 +15,10 @@ El propósito fundamental de este proyecto es desarrollar un Producto Mínimo Vi
 
 Estos archivos, comprimidos en formato JSON GZIP, ofrecen un amplio conjunto de datos para realizar un análisis exhaustivo sobre la experiencia de los usuarios con los juegos.
 
-Puedes encontrar los detalles de los conjuntos de datos en los siguientes enlaces:
-- [Dataset_steam_games.json](enlace)
-- [Datasets_users_items](enlace)
-- [Datasets_users_reviews](enlace)
+Puedes encontrar los detalles de los conjuntos de datos en el siguente enlace:
+
+- [](enlace)
+   
 
 
 
@@ -90,7 +90,7 @@ Para obtener una explicación y demostración del funcionamiento de la API, pued
 
 
 # **Autor:**
-Este proyecto fue realizado por[NATALIA PAEZ MARIN](https://github.com/titolup)
+Este proyecto fue realizado por : [**Natalia Paez Marin**](https://github.com/titolup)
 
 
 
