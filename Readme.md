@@ -54,7 +54,7 @@ En esta etapa del proyecto, se seleccionaron cuidadosamente los conjuntos de dat
 
 ## **Exploracion y Análisis de Datos (EDA):**
 
-Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los tres conjuntos de datos después de completar el proceso de ETL. El objetivo principal fue obtener una visualización detallada de cada variable, tanto categórica como numérica. Esto permitió identificar con precisión las variables críticas necesarias para el modelo de recomendación, que representa el objetivo final del proceso de aprendizaje automático (Machine Learning).
+Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los tres conjuntos de datos después de completar el proceso de ETL. El objetivo principal fue obtener una visualización detallada de cada variable, tanto categórica como numérica. Esto permitió identificar con precisión las variables críticas necesarias para el modelo de recomendación, que representa el objetivo final del proceso de aprendizaje automático (Machine Learning). [Notebook EDA](https://github.com/titolup/PI_MLPos_STEAM/blob/main/4_EDA.ipynb)
 
 
 
@@ -62,7 +62,7 @@ Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los 
 
 En esta fase del proyecto, se utilizan los conjuntos de datos obtenidos durante la etapa de Feature Engineering, especialmente el dataset "steam_games", que contiene información crucial como los géneros de videojuegos, los títulos y las identificaciones correspondientes.
 
-Una función destacada en esta etapa es "recomendacion_juego", la cual toma como parámetro el "id" de un título de juego y devuelve una lista con 5 juegos recomendados similares. Esto se logra mediante una comparación item-item, basada en la similitud de géneros entre los juegos.
+Una función destacada en esta etapa es "recomendacion_juego", la cual toma como parámetro el "id" de un título de juego y devuelve una lista con 5 juegos recomendados similares. Esto se logra mediante una comparación item-item, basada en la similitud de géneros entre los juegos. [Notebook Modelado](https://github.com/titolup/PI_MLPos_STEAM/blob/main/6_Modelado.ipynb)
 
 
 ## **Desarrollo de Funciones API:**
