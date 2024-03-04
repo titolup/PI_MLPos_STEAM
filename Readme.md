@@ -60,19 +60,17 @@ Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los 
 
 Para el desarrollo de la API, se seleccionó el framework FastAPI, implementando las siguientes funciones:
 
-1. `**userdata**`: Esta función recibe como parámetro el 'user_id' y devuelve información detallada sobre el usuario, incluyendo el monto total gastado, el porcentaje de recomendaciones realizadas con respecto al total de reseñas analizadas y la cantidad de ítems consumidos por el usuario.
+1. `developer`: Esta función recibe como entrada 'desarrollador' devuelve cantidad de items y porcentaje de contenido free por año según empresa desarrolladora.
 
-2. `**countreviews**`: Se ingresan dos fechas para realizar una consulta, obteniendo como resultado el número de usuarios que realizaron reseñas entre las fechas especificadas, así como el porcentaje de reseñas positivas que emitieron.
+2. `userdata`: Esta función tiene por parámentro 'user_id' y devuelve la cantidad de dinero gastado por el usuario, el porcentaje de recomendaciones que realizó sobre la cantidad de reviews que se analizan y la cantidad de items que consume el mismo.
 
-3. `**genre**`: Recibe como entrada un género de videojuego y devuelve su posición en un ranking basado en la cantidad de horas jugadas para cada género.
+3. `userforgenre`: Se proporciona el género de un videojuego como parámetro y devuelve el usuario que acumula más horas jugadas para el genero dado y una lista de acumulacion de horas jugadas por año de lanzamiento.
 
-4. `**userforgenre**`: Se proporciona el género de un videojuego como parámetro y se obtiene el top 5 de usuarios con más horas de juego en dicho género, junto con el id del usuario y la URL de su perfil.
+4. `best_developer_year`: Esta función recibe como parametro el año y devuelve el top 3 de desarrolladores con más juegos recomendados por usuarios para el año dado.
 
-5. `**developer**`: Recibe el nombre de la empresa desarrolladora del juego ('developer') y retorna información sobre la cantidad de ítems que esa empresa desarrolla, así como el porcentaje de contenido gratuito por año en relación con el total desarrollado.
+5. `developer_reviews_analysis`: Esta funcion recibe como entrada el nombre de la empresa desarrolladora y devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un analisis de sentimiento como valor positivo o negativo.
 
-6. `sentiment_analysis`: Dado el año de lanzamiento de un juego como entrada, esta función proporciona una lista con la cantidad de registros de reseñas de usuarios categorizadas según su análisis de sentimiento, incluyendo las categorías de Negativo, Neutral y Positivo.
-
-7. `recomendacion_juego`: Se ingresa el nombre de un juego (id) y se obtiene una lista con 5 juegos recomendados similares al ingresado.
+6. `recomendacion_juego`: Se ingresa el nombre de un juego (id) y se obtiene una lista con 5 juegos recomendados similares al ingresado.
 
 Es importante destacar que la función "recomendacion_juego" se añadió a la API, sin embargo, solo "recomendacion_juego" en el notebook de modelado es la correcta, ya que la implementación en Render no fue posible debido a restricciones de capacidad de almacenamiento. Por lo tanto, para utilizar esta función, se debe ejecutar la API localmente.
 
