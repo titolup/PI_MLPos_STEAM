@@ -17,8 +17,8 @@ Estos archivos, comprimidos en formato JSON GZIP, ofrecen un amplio conjunto de 
 
 Puedes encontrar los detalles de los conjuntos de datos en los siguientes enlaces:
 - [Dataset_steam_games.json](enlace)
-- [Datasets_users_items.json](enlace)
-- [Datasets_users_reviews.json](enlace)
+- [Datasets_users_items](enlace)
+- [Datasets_users_reviews](enlace)
 
 
 
