@@ -53,7 +53,7 @@ Para obtener detalles específicos sobre la implementación de cada función, se
 
 
 
-## *Análisis Exploratorio de los Datos*
+## *Análisis Exploratorio de los Datos:*
 
 Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los tres conjuntos de datos después de completar el proceso de ETL. El objetivo principal fue obtener una visualización detallada de cada variable, tanto categórica como numérica. Esto permitió identificar con precisión las variables críticas necesarias para el modelo de recomendación, que representa el objetivo final del proceso de aprendizaje automático (Machine Learning).
 
@@ -61,7 +61,7 @@ Puedes encontrar el análisis exploratorio completo en el siguiente notebook: [e
 
 
 
-## *Desarrollo de la API*
+## *Desarrollo de la API:*
 
 Para el desarrollo de la API, se seleccionó el framework FastAPI, implementando las siguientes funciones:
 
@@ -81,7 +81,7 @@ Para el desarrollo de la API, se seleccionó el framework FastAPI, implementando
 
 Es importante destacar que la función "recomendacion_juego" se añadió a la API, sin embargo, solo "recomendacion_juego" en el notebook de modelado es la correcta, ya que la implementación en Render no fue posible debido a restricciones de capacidad de almacenamiento. Por lo tanto, para utilizar esta función, se debe ejecutar la API localmente.
 
-## *Modelado (Desarrollo del Modelo de Aprendizaje Automático)*
+## *Modelado (Desarrollo del Modelo de Aprendizaje Automático):*
 
 En esta fase del proyecto, se utilizan los conjuntos de datos obtenidos durante la etapa de Feature Engineering, especialmente el dataset "steam_games", que contiene información crucial como los géneros de videojuegos, los títulos y las identificaciones correspondientes.
 
@@ -90,7 +90,7 @@ Una función destacada en esta etapa es "recomendacion_juego", la cual toma como
 El desarrollo de las funciones de consulta generales y el código para el modelo de recomendación se encuentran detallados en el Notebook de Modelado. Puedes acceder al notebook a través del siguiente enlace: [enlace al notebook de modelado]().
 
 
-## *FastAPI*
+## *FastAPI:*
 
 El código para generar la API se encuentra en el archivo Main. Para ejecutar la API desde localhost, sigue estos pasos:
 
@@ -114,15 +114,17 @@ El código para generar la API se encuentra en el archivo Main. Para ejecutar la
 ¡Con estos pasos podrás ejecutar y probar la API localmente en tu máquina!
 
 
-## _Despliegue de la API en Render_
+## _Despliegue de la API en Render:_
 
 Para el despliegue de la API, se optó por la plataforma Render, una solución en la nube unificada que permite crear y ejecutar aplicaciones y sitios web de manera eficiente. Render ofrece la ventaja de desplegar automáticamente las aplicaciones directamente desde GitHub.
 
 El proceso comenzó con la creación de un nuevo servicio en Render, el cual se conectó a este repositorio. Como resultado, la API ahora está completamente operativa y accesible a través del siguiente enlace: [URL del servicio Render](https://api-p1-70mr.onrender.com/docs#).
 
+![https://www.canva.com/design/DAF-fxkgCSM/LvuLbRo10QQ6A2t9il5SUA/view?utm_content=DAF-fxkgCSM&utm_campaign=designshare&utm_medium=link&utm_source=editor]
 
 
-## *Video*
+
+## *Video:*
 
 Para obtener una explicación y demostración del funcionamiento de la API, puedes acceder al siguiente enlace de video:
 
