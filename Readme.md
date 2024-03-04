@@ -71,7 +71,7 @@ Estas funciones se alimentan con datos provenientes de los archivos PARQUET gene
 
 Todo el proceso de desarrollo se realizó localmente en Visual Studio Code, haciendo uso de herramientas como Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta combinación de tecnologías permitió dar vida a los endpoints de la API, proporcionando un acceso exitoso a las funcionalidades desarrolladas en el proyecto.
 
-
+[https://github.com/titolup/PI_MLPos_STEAM/blob/main/Imagenes/A368FB0A-85EF-41BC-88B4-A694DF131B84.PNG9]
 
 
 
