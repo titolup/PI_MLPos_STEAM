@@ -33,7 +33,7 @@ En esta etapa, se llevó a cabo un análisis de sentimientos utilizando la bibli
 Además de la implementación de esta metodología, se prepararon en esta fase los conjuntos de datos necesarios para el tratamiento de cada función específica. Esto permitió optimizar y mejorar los tiempos de ejecución del servicio en la nube, facilitando así el despliegue de la API y la resolución eficiente de consultas.
 
 
-## *Funciones Endpoint:*
+## *Funciones Endpoints:*
 
 En esta etapa del proyecto, se seleccionaron cuidadosamente los conjuntos de datos necesarios para abordar cada función específica. Este enfoque se llevó a cabo con el objetivo de optimizar significativamente el rendimiento y mejorar los tiempos de procesamiento asociados a cada tarea.
 
