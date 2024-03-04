@@ -47,6 +47,7 @@ Las funciones creadas incluyen:
 
 - **best_developer_year(año: int)**: Proporciona el top 3 de desarrolladores con los juegos más recomendados por los usuarios para el año indicado.
 
+- **developer_reviews_analysis(desarrolldora:str)**: Devuelve un diccionario con el nombre del desarrollador y cantidad de registros con reseñas de usuarios categorizadas con un analisis de sentimiento como positivo o negativo.
 
 
 ## **Análisis Exploratorio de los Datos:**
