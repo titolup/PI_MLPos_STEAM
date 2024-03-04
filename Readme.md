@@ -15,11 +15,11 @@ El propósito fundamental de este proyecto es desarrollar un Producto Mínimo Vi
 
 Estos archivos, comprimidos en formato JSON GZIP, ofrecen un amplio conjunto de datos para realizar un análisis exhaustivo sobre la experiencia de los usuarios con los juegos.
 
-Puedes encontrar los detalles de los conjuntos de datos en los siguentes enlaces:
+Puedes encontrar los detalles de los conjuntos de datos en el siguente enlace:
 
-- [Dataset](https://github.com/titolup/PI_MLPos_STEAM/blob/main/Datasets_Steam_Games/steam_games.json.gz)
+- [Dataset](https://github.com/titolup/PI_MLPos_STEAM/blob/main/0-%20Datasets)
 
-- [User_reviews.json](https://github.com/titolup/PI_MLPos_STEAM/blob/main/Datasets_User_Reviews/user_reviews.json.gz)
+  
    
 
 
