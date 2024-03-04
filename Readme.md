@@ -7,7 +7,7 @@ El propósito fundamental de este proyecto es simular el rol de un MLOps Enginee
 
 ### *El proyecto se fundamenta en el análisis de tres archivos en formato JSON GZIP:*
 
-'output_steam_games.json´': Este archivo contiene un dataframe que detalla información crucial sobre los juegos, incluyendo el nombre del juego, el editor, el desarrollador, los precios y etiquetas asociadas.
+'*output_steam_games.json*´: Este archivo contiene un dataframe que detalla información crucial sobre los juegos, incluyendo el nombre del juego, el editor, el desarrollador, los precios y etiquetas asociadas.
 
 'australian_users_items.json': Aquí se encuentra un dataframe que proporciona información sobre los juegos utilizados por los usuarios australianos, junto con el tiempo dedicado por cada usuario a cada juego.
 
