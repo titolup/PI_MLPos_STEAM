@@ -87,7 +87,7 @@ En esta fase del proyecto, se utilizan los conjuntos de datos obtenidos durante 
 
 Una función destacada en esta etapa es "recomendacion_juego", la cual toma como parámetro el "id" de un título de juego y devuelve una lista con 5 juegos recomendados similares. Esto se logra mediante una comparación item-item, basada en la similitud de géneros entre los juegos.
 
-El desarrollo de las funciones de consulta generales y el código para el modelo de recomendación se encuentran detallados en el Notebook de Modelado. Puedes acceder al notebook a través del siguiente enlace: [enlace al notebook de modelado]().
+El desarrollo de las funciones de consulta generales y el código para el modelo de recomendación se encuentran detallados en el Notebook de Modelado. Puedes acceder al notebook a través del siguiente enlace: []().
 
 
 ## *FastAPI:*
@@ -119,9 +119,6 @@ El código para generar la API se encuentra en el archivo Main. Para ejecutar la
 Para el despliegue de la API, se optó por la plataforma Render, una solución en la nube unificada que permite crear y ejecutar aplicaciones y sitios web de manera eficiente. Render ofrece la ventaja de desplegar automáticamente las aplicaciones directamente desde GitHub.
 
 El proceso comenzó con la creación de un nuevo servicio en Render, el cual se conectó a este repositorio. Como resultado, la API ahora está completamente operativa y accesible a través del siguiente enlace: [URL del servicio Render](https://api-p1-70mr.onrender.com/docs#).
-
-![Fastaoi](C:\Users\Toranzos\Downloads\Estudio de Fotografía Portada de Facebook (1).png)
-
 
 
 ## *Video:*
