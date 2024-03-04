@@ -17,11 +17,11 @@ Estos archivos, comprimidos en formato JSON GZIP, ofrecen un amplio conjunto de 
 
 Puedes encontrar los detalles de los conjuntos de datos en los siguentes enlaces:
 
-- [Steam_Games.json](https://github.com/titolup/PI_MLPos_STEAM/blob/main/Datasets_Steam_Games/steam_games.json.gz)
+- [Dataset](https://github.com/titolup/PI_MLPos_STEAM/blob/main/Datasets_Steam_Games/steam_games.json.gz)
 
 - [User_reviews.json](https://github.com/titolup/PI_MLPos_STEAM/blob/main/Datasets_User_Reviews/user_reviews.json.gz)
    
--[](enlace)
+
 
 
 ## **Actividades Desarrolladas:**
