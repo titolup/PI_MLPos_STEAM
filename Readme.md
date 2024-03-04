@@ -67,9 +67,9 @@ Una función destacada en esta etapa es "recomendacion_juego", la cual toma como
 
 En esta etapa del proyecto, se llevó a cabo el desarrollo de los endpoints requeridos mediante funciones en Python, implementadas dentro del archivo Funciones.ipynb. Después de instalar FastAPI y uvicorn, se configuró un archivo main.py con la estructura necesaria para poner en funcionamiento los endpoints.
 
-Estas funciones se alimentan con datos provenientes del archivo PARQUET generado durante el análisis exploratorio de datos  realizado anteriormente.
+Estas funciones se alimentan con datos provenientes de los archivos PARQUET generados en ETL y luego tratados en el archivo Union_tablas_Funciones.ipynb para poder optimizar el almacenamiento para poder posteriormente realizar el deploy en Render.
 
-Todo el proceso de desarrollo se realizó localmente en Visual Studio Code, haciendo uso de herramientas como Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta combinación de tecnologías permitió dar vida a los endpoints de la API, proporcionando un acceso exitoso a las funcionalidades desarrolladas en el proyecto
+Todo el proceso de desarrollo se realizó localmente en Visual Studio Code, haciendo uso de herramientas como Jupyter Notebook, Python, numpy, pandas, FastAPI y uvicorn. Esta combinación de tecnologías permitió dar vida a los endpoints de la API, proporcionando un acceso exitoso a las funcionalidades desarrolladas en el proyecto.
 
 
 
