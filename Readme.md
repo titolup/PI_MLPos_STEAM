@@ -39,7 +39,7 @@ Además de la implementación de esta metodología, se prepararon en esta fase l
 
 En esta etapa del proyecto, se seleccionaron cuidadosamente los conjuntos de datos necesarios para abordar cada función específica. Este enfoque se llevó a cabo con el objetivo de optimizar significativamente el rendimiento y mejorar los tiempos de procesamiento asociados a cada tarea.
 
-Las funciones creadas incluyen:
+**Las funciones creadas incluyen:**
 
 - **developer(desarrollador: str)**: Esta función devuelve la cantidad de ítems y el porcentaje de contenido gratuito por año, según el desarrollador de la empresa.
 
