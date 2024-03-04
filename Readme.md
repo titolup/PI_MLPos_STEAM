@@ -3,7 +3,7 @@
 
 
 # *Proyecto Individual 1 - Machine Learning MLOps*
-El propósito fundamental de este proyecto es simular el rol de un MLOps Engineer, que amalgama las competencias de un Data Engineer y un Data Scientist, dentro del contexto dinámico de la plataforma de juegos Steam. El desafío empresarial que se plantea es la creación de un Producto Mínimo Viable (MVP) que integre una API desplegada conjuntamente con un modelo de Machine Learning. Este modelo debe ser capaz de efectuar un análisis de sentimientos basado en los comentarios de los usuarios, al tiempo que provee un sistema de recomendación de videojuegos personalizado para la plataforma.
+El propósito fundamental de este proyecto es desarrollar un Producto Mínimo Viable (MVP) que incluya una API y un modelo de Machine Learning diseñado para realizar análisis de sentimientos en los comentarios de los usuarios. Este modelo fue creado con el propósito de ofrecer un sistema de recomendación de videojuegos personalizado en la popular plataforma Steam.
 
 ## *Explorando el análisis de tres archivos en formato JSON GZIP:*
 
@@ -50,7 +50,7 @@ Las funciones creadas incluyen:
 - **developer_reviews_analysis(desarrolldora:str)**: Devuelve un diccionario con el nombre del desarrollador y cantidad de registros con reseñas de usuarios categorizadas con un analisis de sentimiento como positivo o negativo.
 
 
-## **Exploracion y Análisis de Datos:**
+## **Exploracion y Análisis de Datos (EDA):**
 
 Durante esta fase del proyecto, se llevó a cabo un análisis exhaustivo de los tres conjuntos de datos después de completar el proceso de ETL. El objetivo principal fue obtener una visualización detallada de cada variable, tanto categórica como numérica. Esto permitió identificar con precisión las variables críticas necesarias para el modelo de recomendación, que representa el objetivo final del proceso de aprendizaje automático (Machine Learning).
 
@@ -87,13 +87,7 @@ Para obtener una explicación y demostración del funcionamiento de la API, pued
 [Enlace al video de explicación y demostración de la API](enlace_al_video)
 
 
-## **Conclusiones:**
 
-Este proyecto representa una valiosa aplicación de los conocimientos adquiridos durante el programa de Data Science en HENRY. Ha abordado con éxito tareas típicas tanto de un Data Engineer como de un Data Scientist. Logramos cumplir con el objetivo de desarrollar un Producto Mínimo Viable (MPV), consistente en la creación de una API y su posterior despliegue en un servicio web.
-
-A pesar de haber alcanzado el objetivo principal, es crucial reconocer que existen áreas para mejorar. Las funciones implementadas podrían optimizarse aún más para obtener resultados más eficientes y precisos, especialmente considerando las limitaciones de almacenamiento que se presentaron durante el proyecto. Esto subraya la importancia de la iteración continua y la búsqueda constante de la excelencia en el desarrollo de proyectos de este tipo.
-
-En definitiva, este proyecto ha sido una oportunidad invaluable para aplicar de manera práctica los conceptos teóricos aprendidos en un entorno real. Ha proporcionado una experiencia significativa que nos ha permitido crecer como profesionales en el campo de la ciencia de datos.
 
 
 
