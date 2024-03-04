@@ -67,7 +67,7 @@ Una función destacada en esta etapa es "recomendacion_juego", la cual toma como
 
 ## **Desarrollo de Funciones API:**
 
-En esta etapa del proyecto, se llevó a cabo el desarrollo de los endpoints requeridos mediante [Funciones](https://github.com/titolup/PI_MLPos_STEAM/blob/main/5_Funciones.ipynb), implementadas dentro del archivo Funciones.ipynb. Después de instalar FastAPI y uvicorn, se configuró un archivo [main.py](https://github.com/titolup/PI_MLPos_STEAM/blob/main/main.py) con la estructura necesaria para poner en funcionamiento los endpoints.
+En esta etapa del proyecto, se llevó a cabo el desarrollo de los endpoints requeridos mediante [Funciones](https://github.com/titolup/PI_MLPos_STEAM/blob/main/5_Funciones.ipynb), implementadas dentro del archivo. Después de instalar FastAPI y uvicorn, se configuró un archivo [main.py](https://github.com/titolup/PI_MLPos_STEAM/blob/main/main.py) con la estructura necesaria para poner en funcionamiento los endpoints.
 
 Estas funciones se alimentan con datos provenientes de los archivos PARQUET generados en ETL y luego tratados en el archivo [Tablas_Union_Funciones](https://github.com/titolup/PI_MLPos_STEAM/blob/main/main.py) para poder optimizar el almacenamiento para poder posteriormente realizar el deploy en Render.
 
