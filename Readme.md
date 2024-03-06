@@ -24,7 +24,7 @@ Puedes encontrar los detalles de los conjuntos de datos en el siguente enlace:
 
 
 
-## **Actividades Desarrolladas:**
+# **Actividades Desarrolladas:**
 
 **ETL (Extracción, Transformación y Carga):**
 Durante esta etapa crítica del proyecto, se ejecutaron tres Notebooks fundamentales: ETL_steam, ETL_reviews y ETL_items. El propósito principal fue extraer datos de los dataframes iniciales para adquirir familiaridad con ellos y, seguidamente, iniciar la crucial fase de limpieza de datos. Este proceso implicó la eliminación de cualquier elemento que pudiera obstruir la comprensión y la interpretación precisa del archivo, garantizando así la efectividad en el logro de los objetivos del proyecto. Una vez completada la limpieza, se procedió a generar los datasets necesarios para la fase subsiguiente, comprimiéndolos en formato Parquet para una gestión y almacenamiento optimizados.
