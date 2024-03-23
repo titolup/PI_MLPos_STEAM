@@ -88,7 +88,7 @@ El proceso comenzó con la creación de un nuevo servicio en Render, el cual se 
 
 Para obtener una explicación y demostración del funcionamiento de la API, puedes acceder al siguiente enlace de video:
 
-[Enlace al video de explicación y demostración de la API](https://youtu.be/A2P9KSxvljA)
+[Enlace al video de explicación y demostración de la API]().
 
 
 ## **Autor:**
